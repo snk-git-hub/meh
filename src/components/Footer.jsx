@@ -26,27 +26,7 @@ export default function Footer() {
           display: 'flex',
           gap: '1.5rem'
         }}>
-          <a href="/privacy" style={{
-            color: '#ff7b00',
-            textDecoration: 'none',
-            fontSize: '0.9rem'
-          }}>
-            Privacy Policy
-          </a>
-          <a href="/terms" style={{
-            color: '#ff7b00',
-            textDecoration: 'none',
-            fontSize: '0.9rem'
-          }}>
-            Terms of Service
-          </a>
-          <a href="/contact" style={{
-            color: '#ff7b00',
-            textDecoration: 'none',
-            fontSize: '0.9rem'
-          }}>
-            Contact
-          </a>
+        
         </div>
       </div>
     </footer>
