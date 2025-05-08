@@ -26,7 +26,6 @@ export default function Home() {
   return (
     <div className="home-container">
       <header>
-        <i></i>  
         <h1 className="heading">Developer/Designer/Researcher</h1>
       </header>
 

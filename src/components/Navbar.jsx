@@ -1,12 +1,35 @@
 import { Link } from "react-router-dom";
-import "../Styles/Navbar.css"; // Make sure to create this CSS file
+import "../Styles/Navbar.css";
+import { useState } from "react";
 
 export default function Navbar() {
-    return (
-        <nav className="navbar">
-            <Link to="/" className="nav-link">Home</Link>
-<Link to="/project" className="nav-link">Project</Link>
-<Link to="/research" className="nav-link">Research</Link>
-        </nav>
-    );
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  return (
+    <nav className="navbar">
+      {}
+      <button 
+        className={`menu-toggle ${isMenuOpen ? "active" : ""}`}
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+        aria-label="Toggle navigation menu"
+      >
+        <span className="hamburger-line"></span>
+        <span className="hamburger-line"></span>
+        <span className="hamburger-line"></span>
+      </button>
+
+      {}
+      <div className={`nav-links ${isMenuOpen ? "active" : ""}`}>
+        <Link to="/" className="nav-link" onClick={() => setIsMenuOpen(false)}>
+          Home
+        </Link>
+        <Link to="/project" className="nav-link" onClick={() => setIsMenuOpen(false)}>
+          Project
+        </Link>
+        <Link to="/research" className="nav-link" onClick={() => setIsMenuOpen(false)}>
+          Research
+        </Link>
+      </div>
+    </nav>
+  );
 }
