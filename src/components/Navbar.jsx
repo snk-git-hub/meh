@@ -23,10 +23,10 @@ export default function Navbar() {
         <Link to="/" className="nav-link" onClick={() => setIsMenuOpen(false)}>
           Home
         </Link>
-        <Link to="/project" className="nav-link" onClick={() => setIsMenuOpen(false)}>
+        <Link to="/Project" className="nav-link" onClick={() => setIsMenuOpen(false)}>
           Project
         </Link>
-        <Link to="/research" className="nav-link" onClick={() => setIsMenuOpen(false)}>
+        <Link to="/Research" className="nav-link" onClick={() => setIsMenuOpen(false)}>
           Research
         </Link>
       </div>
