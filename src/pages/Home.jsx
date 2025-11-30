@@ -46,7 +46,8 @@ export default function Home() {
             </p>
           </div>
           <div className="image-container">
-            <img src={profileImg} alt="Profile" className="profile-img" />
+              <img src="https://drive.google.com/thumbnail?id=1ke3zwF1dLQv8xx0e137FsynbEP-SMYTw" alt="Profile" className="profile-img" />
+            {/* <img src={profileImg} alt="Profile" className="profile-img" /> */}
           </div>
         </div>
       </section>
