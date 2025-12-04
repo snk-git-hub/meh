@@ -6,17 +6,16 @@ import Error from "./pages/Error.jsx";
 import Layout from "./Layout.jsx";
 
 export default function AppRoutes() {
-    return (
-        <BrowserRouter basename="/meh">
-            <Routes>
-                <Route path="/" element={<Layout />}>
-                    
-                    <Route index element={<Home />} />
-                    <Route path="Project" element={<Project />} />
-                    <Route path="Research" element={<Research />} />
-                    <Route path="*" element={<Error />} />
-                </Route>
-            </Routes>
-        </BrowserRouter>
-    );
+  return (
+    <BrowserRouter> {/* <- no basename */}
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="Project" element={<Project />} />
+          <Route path="Research" element={<Research />} />
+          <Route path="*" element={<Error />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
