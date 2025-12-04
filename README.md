@@ -1,5 +1,5 @@
 <!-- pinned-start -->
- Nautilus-VCS
+ -Nautilus-VCS
 <!-- pinned-end -->
 
-![image](https://github.com/user-attachments/assets/092b454e-d7be-4874-8f44-191aaf71121a)
+<img width="1221" height="785" alt="image" src="https://github.com/user-attachments/assets/4502632c-ec4b-485c-b989-b8c67b45631a" />
