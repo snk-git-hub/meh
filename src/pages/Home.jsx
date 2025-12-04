@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../Styles/Home.css"; 
-import profileImg from "../assets/109211155.jpeg";
+import profileImg from "../assets/109211156.jpeg";
 import Img1 from "../assets//Travel3.jpg";
 import Img2 from "../assets//Travel2.jpg";
 import Img3 from "../assets//Travel1.jpg"
@@ -46,8 +46,7 @@ export default function Home() {
             </p>
           </div>
           <div className="image-container">
-              <img src="https://drive.google.com/thumbnail?id=1ke3zwF1dLQv8xx0e137FsynbEP-SMYTw" alt="Profile" className="profile-img" />
-            {/* <img src={profileImg} alt="Profile" className="profile-img" /> */}
+             <img src={profileImg} alt="Profile" className="profile-img" /> 
           </div>
         </div>
       </section>
